@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22214E9E24A3770F0086F0E9 /* CustomerSignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22214E9D24A3770F0086F0E9 /* CustomerSignInVC.swift */; };
+		22214EA224A377740086F0E9 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22214EA124A377740086F0E9 /* OnboardingVC.swift */; };
+		22214EA424A37DA70086F0E9 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22214EA324A37DA70086F0E9 /* SwipingController.swift */; };
+		22214EA724A37E070086F0E9 /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22214EA524A37E070086F0E9 /* OnboardingCell.swift */; };
+		22214EA824A37E070086F0E9 /* OnboardingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22214EA624A37E070086F0E9 /* OnboardingCell.xib */; };
 		22A8B05C2497E8D3000DBF7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8B05B2497E8D3000DBF7F /* AppDelegate.swift */; };
-		22A8B0602497E8D3000DBF7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8B05F2497E8D3000DBF7F /* ViewController.swift */; };
 		22A8B0632497E8D3000DBF7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A8B0612497E8D3000DBF7F /* Main.storyboard */; };
 		22A8B0652497E8D7000DBF7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A8B0642497E8D7000DBF7F /* Assets.xcassets */; };
 		22A8B0682497E8D7000DBF7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A8B0662497E8D7000DBF7F /* LaunchScreen.storyboard */; };
@@ -59,9 +63,13 @@
 /* Begin PBXFileReference section */
 		1B4ACA47E8C9CF289A0B58A0 /* Pods_RegoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RegoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		207E99301E1B5CF7F1B534A6 /* Pods-RegoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegoTests.debug.xcconfig"; path = "Target Support Files/Pods-RegoTests/Pods-RegoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		22214E9D24A3770F0086F0E9 /* CustomerSignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerSignInVC.swift; sourceTree = "<group>"; };
+		22214EA124A377740086F0E9 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		22214EA324A37DA70086F0E9 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		22214EA524A37E070086F0E9 /* OnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCell.swift; sourceTree = "<group>"; };
+		22214EA624A37E070086F0E9 /* OnboardingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingCell.xib; sourceTree = "<group>"; };
 		22A8B0582497E8D3000DBF7F /* Rego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rego.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A8B05B2497E8D3000DBF7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22A8B05F2497E8D3000DBF7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22A8B0622497E8D3000DBF7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22A8B0642497E8D7000DBF7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22A8B0672497E8D7000DBF7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -129,6 +137,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22214E9F24A377540086F0E9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				22214E9D24A3770F0086F0E9 /* CustomerSignInVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		22214EA024A3775F0086F0E9 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				22214EA124A377740086F0E9 /* OnboardingVC.swift */,
+				22214EA324A37DA70086F0E9 /* SwipingController.swift */,
+				22214EA524A37E070086F0E9 /* OnboardingCell.swift */,
+				22214EA624A37E070086F0E9 /* OnboardingCell.xib */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		22A8B04F2497E8D3000DBF7F = {
 			isa = PBXGroup;
 			children = (
@@ -160,7 +187,6 @@
 				22A8B08C2497ECA4000DBF7F /* View */,
 				22A8B08B2497EC9E000DBF7F /* Model */,
 				22A8B05B2497E8D3000DBF7F /* AppDelegate.swift */,
-				22A8B05F2497E8D3000DBF7F /* ViewController.swift */,
 				22A8B0612497E8D3000DBF7F /* Main.storyboard */,
 				22A8B0642497E8D7000DBF7F /* Assets.xcassets */,
 				22A8B0662497E8D7000DBF7F /* LaunchScreen.storyboard */,
@@ -197,6 +223,8 @@
 		22A8B08C2497ECA4000DBF7F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				22214EA024A3775F0086F0E9 /* Onboarding */,
+				22214E9F24A377540086F0E9 /* Main */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -392,6 +420,7 @@
 			files = (
 				22A8B0B82497EEDD000DBF7F /* Montserrat-SemiBoldItalic.ttf in Resources */,
 				22A8B0B42497EEDD000DBF7F /* OFL.txt in Resources */,
+				22214EA824A37E070086F0E9 /* OnboardingCell.xib in Resources */,
 				22A8B0AD2497EEDD000DBF7F /* Montserrat-Thin.ttf in Resources */,
 				22A8B0AA2497EEDD000DBF7F /* Montserrat-Light.ttf in Resources */,
 				22A8B0B22497EEDD000DBF7F /* Montserrat-ExtraLightItalic.ttf in Resources */,
@@ -539,9 +568,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22A8B0602497E8D3000DBF7F /* ViewController.swift in Sources */,
 				22A8B05C2497E8D3000DBF7F /* AppDelegate.swift in Sources */,
+				22214EA224A377740086F0E9 /* OnboardingVC.swift in Sources */,
+				22214EA724A37E070086F0E9 /* OnboardingCell.swift in Sources */,
 				22A8B0912497ECDD000DBF7F /* GifPlayer.swift in Sources */,
+				22214EA424A37DA70086F0E9 /* SwipingController.swift in Sources */,
+				22214E9E24A3770F0086F0E9 /* CustomerSignInVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fillgood" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7c-yN-SzH">
-                                <rect key="frame" x="99.5" y="417.5" width="215.5" height="61"/>
+                                <rect key="frame" x="118" y="419" width="178" height="58.5"/>
                                 <fontDescription key="fontDescription" name="Montserrat-ExtraBold" family="Montserrat" pointSize="50"/>
                                 <color key="textColor" name="Orange"/>
                                 <nil key="highlightedColor"/>
@@ -44,7 +44,7 @@
     </scenes>
     <resources>
         <namedColor name="Orange">
-            <color red="1" green="0.61960784313725492" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.62000000476837158" blue="0.32899999618530273" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
