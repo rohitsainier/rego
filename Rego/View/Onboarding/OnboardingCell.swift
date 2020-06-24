@@ -10,9 +10,24 @@ import UIKit
 
 class OnboardingCell: UICollectionViewCell {
 
+    //OUTLETS
+    @IBOutlet weak var nextBtn: UIButton!
+    @IBOutlet weak var skipBtn: UIButton!
+    @IBOutlet weak var gifImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
+    
+    func playGif(gifName:String){
+        gifImage.image = nil
+        gifImage.image = UIImage.gifImageWithName(gifName)
+    }
 
+    @IBAction func clickSkipBtn(_ sender: UIButton) {
+    }
+    
+    @IBAction func clickNextBtn(_ sender: UIButton) {
+    }
 }
