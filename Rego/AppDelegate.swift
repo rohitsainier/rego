@@ -23,10 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // this is how we build out our app in code
         window = UIWindow()
         window?.makeKeyAndVisible()
-        let layout = UICollectionViewFlowLayout()
-        layout.scrollDirection = .horizontal
-        let swipingController = SwipingController(collectionViewLayout: layout)
-        window?.rootViewController = swipingController
+        let onboardingVC = OnboardingView()
+        window?.rootViewController = onboardingVC
     }
 
     //MARK:- AppDelegate Method
