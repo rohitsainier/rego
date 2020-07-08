@@ -24,13 +24,30 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aAl-gm-N5c" customClass="ReusableNavigationBar" customModule="Rego" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="N3a-Qy-ma2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="aAl-gm-N5c" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="asa-PD-sxl"/>
+                            <constraint firstItem="aAl-gm-N5c" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gn2-2e-X3A"/>
+                            <constraint firstItem="aAl-gm-N5c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mdO-Nf-z3z"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="navBar" destination="aAl-gm-N5c" id="dfl-ZE-nXf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="90"/>
+            <point key="canvasLocation" x="137.68115942028987" y="89.732142857142847"/>
         </scene>
         <!--Onboarding1-->
         <scene sceneID="Vde-eJ-7yA">

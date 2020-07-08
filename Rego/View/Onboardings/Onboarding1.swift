@@ -28,6 +28,7 @@ class Onboarding1: UIViewController {
     }
   
     @IBAction func clickNextBtn(_ sender: UIButton) {
+        onboarding.goToNextPage()
     }
     
     
