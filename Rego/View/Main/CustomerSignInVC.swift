@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SainiUtils
 
 class CustomerSignInVC: UIViewController {
 
@@ -14,11 +15,11 @@ class CustomerSignInVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configUI()
-
-        // Do any additional setup after loading the view.
     }
     
     private func configUI(){
         navBar.navBartitleLbl.text = "Sign in"
     }
 }
+
+
