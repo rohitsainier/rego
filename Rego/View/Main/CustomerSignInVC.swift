@@ -18,6 +18,7 @@ class CustomerSignInVC: UIViewController {
     @IBOutlet weak var signInBtn: UIButton!
     @IBOutlet weak var passwordTxt: UITextField!
     @IBOutlet weak var emailTxt: UITextField!
+     @IBOutlet weak var vendorSignInSignUpView:UIView!
     @IBOutlet weak var navBar: ReusableNavigationBar!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -64,6 +65,14 @@ class CustomerSignInVC: UIViewController {
         combination.append(hereTxt)
         
         venderSignUpLbl.attributedText = combination
+        signUpBtn.sainiAddTapGesture {
+            let vc: CustomerSignUpVC = STORYBOARD.MAIN.instantiateViewController(withIdentifier: "CustomerSignUpVC") as!  CustomerSignUpVC
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+         vendorSignInSignUpView.sainiAddTapGesture {
+            let vc: VenderSignInVC = STORYBOARD.MAIN.instantiateViewController(withIdentifier: "VenderSignInVC") as!  VenderSignInVC
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     }
     
     @IBAction func clickForgotPasswordBtn(_ sender: UIButton) {
