@@ -30,6 +30,9 @@ class Onboarding3: UIViewController {
     
     
     @IBAction func clickSkipBtn(_ sender: UIButton) {
+        let loginVC = STORYBOARD.MAIN.instantiateViewController(withIdentifier: "LoginNavigation") as! UINavigationController
+        UIApplication.shared.windows.first?.rootViewController = loginVC
+        UIApplication.shared.windows.first?.makeKeyAndVisible()
     }
  
 

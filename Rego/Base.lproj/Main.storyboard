@@ -1239,7 +1239,7 @@
         <!--Navigation Controller-->
         <scene sceneID="oxD-Iy-zA9">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="P3W-bU-GkN" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LoginNavigation" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="P3W-bU-GkN" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FsZ-xG-sJ7">
                         <autoresizingMask key="autoresizingMask"/>
