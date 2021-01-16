@@ -93,7 +93,7 @@
                                                                 <rect key="frame" x="0.0" y="140" width="314" height="15"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ki3-Im-hOi">
-                                                                        <rect key="frame" x="181" y="-5.5" width="103" height="26"/>
+                                                                        <rect key="frame" x="194" y="-5" width="90" height="25"/>
                                                                         <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="11"/>
                                                                         <state key="normal" title="Forgot Password?">
                                                                             <color key="titleColor" name="DarkGrey"/>
@@ -887,7 +887,7 @@
                                                                 <rect key="frame" x="0.0" y="140" width="314" height="15"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4V-Zv-Mgv">
-                                                                        <rect key="frame" x="181" y="-5.5" width="103" height="26"/>
+                                                                        <rect key="frame" x="194" y="-5" width="90" height="25"/>
                                                                         <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="11"/>
                                                                         <state key="normal" title="Forgot Password?">
                                                                             <color key="titleColor" name="DarkGrey"/>
@@ -955,7 +955,7 @@
                                                         <rect key="frame" x="77" y="15" width="160" height="50"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click here to Sign up as a vendor" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OgE-Ln-sLk">
-                                                                <rect key="frame" x="2" y="10.5" width="156" height="29.5"/>
+                                                                <rect key="frame" x="2" y="11" width="156" height="28"/>
                                                                 <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="12"/>
                                                                 <color key="textColor" name="White"/>
                                                                 <nil key="highlightedColor"/>
