@@ -837,7 +837,6 @@
 		};
 		22A8B0832497E8D8000DBF7F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4EAE667FACC1FFCE38911FC /* Pods-Rego.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -857,7 +856,6 @@
 		};
 		22A8B0842497E8D8000DBF7F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEFF670AE5F48D242FBAFCDD /* Pods-Rego.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -877,7 +875,6 @@
 		};
 		22A8B0862497E8D8000DBF7F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 207E99301E1B5CF7F1B534A6 /* Pods-RegoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -900,7 +897,6 @@
 		};
 		22A8B0872497E8D8000DBF7F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D62163D64DED59AC23816ABA /* Pods-RegoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -923,7 +919,6 @@
 		};
 		22A8B0892497E8D8000DBF7F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9E49A6B40FC38B5BD7C0D0D /* Pods-Rego-RegoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -944,7 +939,6 @@
 		};
 		22A8B08A2497E8D8000DBF7F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 496608863FCCE297F56A27E5 /* Pods-Rego-RegoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
