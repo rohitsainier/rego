@@ -15,7 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        setupOnboarding()
         return true
+    }
+    
+    private func setupOnboarding(){
+        // this is how we build out our app in code
+        window = UIWindow()
+        window?.makeKeyAndVisible()
+        let onboardingVC = OnboardingView()
+        window?.rootViewController = onboardingVC
     }
 
     //MARK:- AppDelegate Method

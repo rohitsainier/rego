@@ -23,6 +23,10 @@ class RegoTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    
+    func testCool(){
+        XCTAssertEqual(10>5, 100>50, "yes that is right!!!")
+    }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
